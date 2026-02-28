@@ -1,21 +1,28 @@
 header {
-  height: 138px;
+  background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
-  background-color: var(--background-tertiary-color);
+  position: relative;
 }
 
 .logo {
   display: inline-block;
   width: 68px;
   height: 6px;
+  align-self: flex-start;
 }
 
 .navigation-menu {
   margin-top: 24px;
+}
+
+input[type="checkbox"] {
+}
+:checked ~ nav {
+  display: block;
 }
 
 nav {

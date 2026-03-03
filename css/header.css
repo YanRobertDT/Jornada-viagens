@@ -13,11 +13,11 @@ header {
   width: 68px;
   height: 6px;
 }
-.logho-mobile {
+.img-mobile {
   display: block;
 }
 
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 

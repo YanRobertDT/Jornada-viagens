@@ -11,8 +11,9 @@ header {
 .logo {
   display: inline-block;
   width: 68px;
-  height: 6px;
+  height: 64px;
 }
+
 .img-mobile {
   display: block;
 }
@@ -20,7 +21,6 @@ header {
 .img-desktop {
   display: none;
 }
-
 .navigation-menu {
   margin-top: 24px;
 }
@@ -45,15 +45,11 @@ nav {
 .list-links li {
   margin: 16px 0;
 }
-
 .list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
-}
-.list-links li a.active {
-  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
@@ -80,7 +76,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  .main-header {
+  header {
     padding: 38px 120px;
   }
   .logo {
@@ -99,7 +95,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  .main-header {
+  header {
     padding: 38px 160px;
   }
 }
